@@ -32,7 +32,7 @@ const socialLinks = [
   },
   {
     name: 'TikTok',
-    url: 'https://vm.tiktok.com/ZSHGUwbQW/',
+    url: 'https://vm.tiktok.com/ZSHGUwbQW1g7h-kAJcL/',
     icon: <TikTokIcon className="w-6 h-6" />,
     styleClasses: {
       bg: 'bg-black',
