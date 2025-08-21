@@ -1,6 +1,6 @@
 import React from 'react';
 import SocialLink from './components/SocialLink';
-import { InstagramIcon, FacebookIcon, XIcon } from './components/icons';
+import { InstagramIcon, FacebookIcon, XIcon, TikTokIcon, YouTubeIcon } from './components/icons';
 
 const socialLinks = [
   {
@@ -27,6 +27,24 @@ const socialLinks = [
     icon: <XIcon className="w-6 h-6" />,
     styleClasses: {
       bg: 'bg-black',
+      text: 'text-white'
+    }
+  },
+  {
+    name: 'TikTok',
+    url: 'https://vm.tiktok.com/ZSHGUwbQW/',
+    icon: <TikTokIcon className="w-6 h-6" />,
+    styleClasses: {
+      bg: 'bg-black',
+      text: 'text-white'
+    }
+  },
+  {
+    name: 'YouTube',
+    url: 'https://youtube.com/@Apapa-districtTeens?sub_confirmation=1',
+    icon: <YouTubeIcon className="w-6 h-6" />,
+    styleClasses: {
+      bg: 'bg-red-600',
       text: 'text-white'
     }
   }
